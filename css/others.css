@@ -1,0 +1,257 @@
+.single-header{
+  width:100%;
+  max-height: 350px;
+  overflow: hidden;
+  position:relative;
+}
+
+.single-header .close-this{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.5em;
+    padding: 20px;
+    width: 20px;
+    margin: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 40px;
+    background: white;
+    font-family: arial;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+
+.single-header .close-this span{
+    position: absolute;
+    top: 5px;
+    right: 13px;
+}
+
+.single-header img{
+  width: 100%;
+}
+
+.character-info {
+  margin:20px 0;
+}
+
+.character-info .available{
+    font-size: 1.4em;
+    font-weight: 900;
+    line-height: 100%;
+}
+
+.see-more{
+  width: 100%;
+  display: inline-block;
+  height: 45px;
+  overflow: hidden;
+  font-family: "Oswald", sans-serif;
+}
+
+.see-more .content{
+  text-align: right;
+}
+
+.see-more a{
+  background:#f0141e;
+  line-height: 3;
+  text-align: center;
+  color:white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.see-more:nth-child(2){
+  display: none;
+}
+.character-info .name{
+  font-size: .9em;
+  padding-right: 10px;
+}
+
+.character-info .available span{
+    font-size: 1.6em;
+    padding:0 10px;
+}
+
+.box-search .title{
+    margin-top: 20px;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5em;
+    color:gray;
+}
+
+.box-single__item .image{
+  position:relative;
+  margin-top:-160px;
+  border-radius: 200px;
+  border: 10px solid white;
+  box-shadow: 1px 1px 5px gray;
+  width: 250px;
+  height: 250px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0;
+  position:relative;
+}
+
+
+.box-single__item .image img{
+  width:100%;
+  border-radius: 200px;
+  border: 5px solid #FEC461;
+  width: 250px;
+  height: 250px;
+}
+
+
+.box-search{
+  text-align: center;
+}
+
+.search{
+  width:90%;
+  line-height: 3;
+  margin:20px;
+  border-radius: 10px;
+  padding:0 20px;
+  box-shadow: none;
+  border:1px solid rgba(223,223,223, 1);
+  font-size:1.2em;
+  text-align: center;
+}
+
+@media (min-width: 767px) {
+  .search {
+    width:100%;
+    margin:20px 0;
+    text-align: left;
+  }
+}
+
+@media (min-width: 900px) {
+  .search {
+    width:100%;
+    margin:20px 0;
+    text-align: left;
+  }
+  .item .info{
+    height: 350px;
+  }
+}
+
+
+.slogan{
+  text-align:center;
+  color:white;
+  width:100%;
+  display: inline-block;
+}
+
+.item-character .title{
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(255,255,255,1);
+  padding: 5px 0;
+  width: 100%;
+  margin: 0;
+  border-top: 2px solid rgba(20,29,47,.1);
+  border-bottom: 1px solid rgba(20,29,47,.1);
+  background-image:url('../assets/patter3.jpg');
+  background-size:100%;
+  }
+
+  .title span{
+  display: block;
+  width: 100%;
+  text-transform:uppercase;
+  font-size: 1.2em;
+  }
+
+.action{
+  position:absolute;
+  top:0;
+  bottom:0;
+  right: 0;
+  left: 0;
+  padding:20px;
+  /*background-image:url('../patter2.gif');*/
+  background-color: rgba(0,0,0, .8);
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  visibility: hidden;
+}
+
+
+.action span{
+  color:white;
+  text-decoration: none;
+  font-size: 1.6em;
+  cursor:pointer;
+}
+
+.action.active{
+  visibility: visible;
+}
+
+.box-header, .footer{
+  background-image: url('../assets/patter4.gif');
+}
+
+.box-header__bg{
+  padding:30px 0;
+  background-color: rgba( 255, 255, 255, 0.04);
+}
+
+.footer-image .text{
+  color:white;
+}
+
+
+
+.footer .footer-image{
+  background-color: rgba(63, 6, 6, 0.701961);
+  width:100%;
+  height: 100%;
+  padding:30px 0;
+  text-align: center;
+}
+
+.logo{
+  width:100px;
+  margin: 0 auto;
+}
+
+.logo img{
+  width:100%;
+}
+
+
+  .box-characters .item{
+    overflow: hidden;
+    margin-bottom:20px;
+    padding:0 20px;
+
+  }
+
+  .info{
+    overflow: hidden;
+    margin:0 auto;
+    position:relative;
+  }
+  .info img{
+    width:100%;
+    height: 100%;
+    vertical-align: top;
+  }
